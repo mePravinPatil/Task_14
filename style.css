@@ -1,0 +1,132 @@
+form {
+  width: 50%;
+  margin: auto;
+}
+
+.text1 {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.text2 {
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+sup {
+  color: red;
+}
+
+.name-field {
+  gap: 5px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-fie input {
+  width: 200px;
+}
+
+.email-field {
+  gap: 5px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+.name-field-first {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .name-field {
+    flex-direction: row;
+  }
+
+  .email-field > input {
+    width: 360px;
+  }
+}
+
+.star-rating {
+  direction: rtl;
+  display: inline-block;
+  padding: 10px;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  color: #bbb;
+  font-size: 35px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+  color: #eeac82;
+}
+
+.tables1 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.tables2 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.tab1 {
+  width: 100%;
+}
+
+.tab1 tr td:nth-child(1) {
+  text-align: left;
+}
+
+.tab1 tr td {
+  width: 40px;
+  text-align: center;
+  padding: 8px;
+}
+
+.tab1 tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.tab2 {
+  width: 100%;
+}
+
+.tab2 tr td:nth-child(1) {
+  text-align: left;
+}
+.tab2 tr td {
+  width: 50px;
+  text-align: center;
+  padding: 8px;
+}
+
+.tab2 tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.comment {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.comment textarea {
+  width: 100%;
+}
+
+button {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
